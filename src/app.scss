@@ -1,0 +1,11 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+  color: $colour2;
+  margin: 0;
+}
+
+.app {
+  background-color: $colour1;
+}
