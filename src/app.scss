@@ -3,9 +3,17 @@
 * {
   box-sizing: border-box;
   color: $colour2;
+  font-family: $font2;
   margin: 0;
+  text-decoration: none;
 }
 
 .app {
   background-color: $colour1;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: $font1;
 }

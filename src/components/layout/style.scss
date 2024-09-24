@@ -1,12 +1,28 @@
 @import "../../variables";
 
 .header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   .header-title-container {
     align-items: center;
     display: flex;
     flex-direction: column;
     .header-logo {
-      width: 140px;
+      margin: $gap1 0 $gap2 0;
+      width: 70px;
+    }
+    .header-name {
+    }
+    .header-subtitle {
+      margin-top: $gap2;
     }
   }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+  width: 100%;
 }

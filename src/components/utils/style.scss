@@ -1,0 +1,16 @@
+@import "../../variables";
+
+.link {
+  font-size: $font-size1;
+}
+
+.link1 {
+  margin-top: $gap1;
+}
+
+.route {
+  padding: $padding1;
+  .route-title {
+    text-align: center;
+  }
+}
