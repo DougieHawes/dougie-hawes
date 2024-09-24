@@ -1,11 +1,18 @@
-@import "../../variables";
+@import "../../variables/variables";
 
 .link {
+  cursor: pointer;
   font-size: $font-size1;
 }
 
 .link1 {
   margin-top: $gap1;
+}
+
+.link2 {
+  .link2-icon {
+    height: 60px;
+  }
 }
 
 .route {

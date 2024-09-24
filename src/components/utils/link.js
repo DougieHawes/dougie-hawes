@@ -12,3 +12,17 @@ export const Link1 = ({ to, text }) => {
     </Link>
   );
 };
+
+export const Link2 = ({ to, icon }) => {
+  return (
+    <a className="link link2" href={to}>
+      <img
+        className="link2-icon"
+        src={icon}
+        alt=""
+        target="_blank"
+        rel="noreferrer"
+      />
+    </a>
+  );
+};

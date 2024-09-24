@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 // file imports
 // styles
 import "./style.scss";
-
-const fadeDuration = 0.7;
+// variables
+import { fadeDuration } from "../../variables/variables";
 
 export const Route1 = ({ title, content }) => {
   const titleVariants = {
